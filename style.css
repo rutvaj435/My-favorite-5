@@ -1,0 +1,65 @@
+body{
+  background:linear-gradient( #ffcccb, 50%, red 100%);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#gaming{
+  text-shadow: 2px 2px #FFD700;
+}
+#infoSec{
+  padding: 20px;
+}
+#favSec{
+  padding-top:50px;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    z-index: 10;
+    top: 10px;
+    position: fixed;
+    padding-left: 550px;
+    background-color: aqua;
+}
+.links:hover {
+    background-color: red;
+}
+body{
+    font-family: 'Goldman', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+#gmd{
+  transition: transform .2s;
+}
+#gmd:hover{
+  transform: scale(0.9);
+}
+.links {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: crimson;
+    font-family: fantasy;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+#mailIcon{
+    width: 2%;
+}
